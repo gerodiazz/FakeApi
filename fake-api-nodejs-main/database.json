@@ -1,0 +1,147 @@
+{
+  "protectedResources": {
+    "carts": {
+      "user": [
+        "POST",
+        "DELETE",
+        "GET",
+        "PUT"
+      ],
+      "admin": [
+        "GET"
+      ],
+      "superadmin": [
+        "GET"
+      ]
+    },
+    "products": {
+      "user": [
+        "GET"
+      ],
+      "admin": [
+        "GET",
+        "PUT"
+      ],
+      "superadmin": [
+        "GET",
+        "PUT",
+        "DELETE",
+        "POST"
+      ]
+    }
+  },
+  "users": [
+    {
+      "id": 1,
+      "username": "ad",
+      "email": "ad@gmail.com",
+      "password": "ad",
+      "createdAt": 1720059370555,
+      "modifiedAt": 1720059370555,
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "createdAt": 1720059370555,
+      "modifiedAt": 1720059370555,
+      "role": "admin"
+    },
+    {
+      "id": 3,
+      "username": "superadmin",
+      "email": "superadmin@gmail.com",
+      "password": "superadmin",
+      "createdAt": 1720059370555,
+      "modifiedAt": 1720059370555,
+      "role": "superadmin"
+    }
+  ],
+  "products": [
+    {
+      "name": "Mate Torpedo Marrón",
+      "quantity": 16,
+      "thumbnail": "https://i.imgur.com/g5MbmS0.jpeg",
+      "price": 7500,
+      "modifiedAt": 1720202086767,
+      "id": 1
+    },
+    {
+      "name": "Combo dos mates torpedos",
+      "quantity": 25,
+      "thumbnail": "https://i.imgur.com/dPTF9WD.jpeg",
+      "price": 12500,
+      "modifiedAt": 1720202159019,
+      "id": 2
+    },
+    {
+      "name": "Mate Torpedo Negro",
+      "quantity": 41,
+      "thumbnail": "https://i.imgur.com/3nOE9K0.jpeg",
+      "price": 8000,
+      "modifiedAt": 1720202321885,
+      "id": 3
+    },
+    {
+      "name": "Mate Camionero Bordó",
+      "quantity": 67,
+      "thumbnail": "https://i.imgur.com/fcZl1LS.jpeg",
+      "price": 8700,
+      "modifiedAt": 1720202336571,
+      "id": 4
+    },
+    {
+      "name": "Mate Camionero Negro",
+      "quantity": 83,
+      "thumbnail": "https://i.imgur.com/0TpcrdK.jpeg",
+      "price": 15500,
+      "modifiedAt": 1720202388144,
+      "id": 5
+    },
+    {
+      "name": "Mate Imperial Negro",
+      "quantity": 37,
+      "thumbnail": "https://i.imgur.com/j1qBvKk.jpeg",
+      "price": 19500,
+      "modifiedAt": 1720202429180,
+      "id": 6
+    },
+    {
+      "name": "Mate de Aluminio",
+      "quantity": 60,
+      "thumbnail": "https://i.imgur.com/36lWmJ0.jpeg",
+      "price": 7000,
+      "modifiedAt": 1720202465122,
+      "id": 7
+    },
+    {
+      "name": "Mate de Calabaza Negro",
+      "quantity": 40,
+      "thumbnail": "https://i.imgur.com/bJXyprd.jpeg",
+      "price": 9500,
+      "modifiedAt": 1720202567119,
+      "id": 8
+    }
+  ],
+  "carts": [
+    {
+      "userId": 1,
+      "items": []
+    },
+    {
+      "userId": 3,
+      "items": []
+    },
+    {
+      "userId": 2,
+      "items": [
+        {
+          "productId": 2,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
